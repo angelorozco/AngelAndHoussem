@@ -13,17 +13,17 @@
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form id="survey-form">
         <label id="name-label">Name
-            <br><input type="text" required id="name" placeholder="Your Name">
+            <input type="text" required id="name" placeholder="Your Name">
         </label><br><br>
         <label id="email-label">Email
-            <br><input required type="email" id="email" placeholder="Your Email">
+            <input required type="email" id="email" placeholder="Your Email">
         </label><br><br>
         <label id="number-label">Age
-            <br><input min=0 max=99 type="number" id="number" placeholder="Your Number">
+            <input min=0 max=999999999 type="number" id="number" placeholder="Your Number">
         </label><br><br>
         
-            <label> What are you?
-                <br> <select id="dropdown">
+            <label> What
+                <select id="dropdown">
                <option>challenges</option>
                <option>students</option>
                <option>full time job</option>
@@ -31,7 +31,7 @@
            </select>
             </label>
            
-            <p class="radiop">Would you recommend freeCodeCamp to a friend?</p>
+            <p>Would you recommend freeCodeCamp to a friend?</p>
             <div class="radio">
                 <label><input type="radio" name="wouldyou">Definetly</label>
             <label><input type="radio" name="wouldyou">Maybe</label>
@@ -39,7 +39,7 @@
             </div>
             
 
-            <p class="radiop">What would you like to see improved?</p>
+            <p>What would you like to see improved?</p>
             <div class="radio2">
                 <label><input value="frontend" type="checkbox">Front-end Projects</label>
             <label><input value="backend" type="checkbox">Back-end Projects</label>
@@ -50,7 +50,7 @@
             
 
             <p>Any comments or suggestions?</p>
-            <label><textarea rows="10" cols="40">Leave a comment!</textarea></label>
+            <label><textarea rows="5">Leave a comment!</textarea></label>
             <br><br>
             <button id="submit">Submit</button>
 
