@@ -6,12 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servey Form</title>
-    <h1>freeCodeCamp Survey Form</h1>
-    <h3>Thank you for taking the time to help us improve the platform</h3>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
 </head>
 <body>
-<form>
+    <form id="survey-form">
+        <label id="name">Name
+            <input type="text" id="input" placeholder="Your Name">
+        </label><br><br>
+        <label id="email">Email
+            <input type="email" id="input" placeholder="Your Email">
+        </label><br><br>
+        <label id="number">Number
+            <input min=0 max=999999999 type="number" id="input" placeholder="Your Number">
+        </label><br><br>
 
-</form>
+    </form>
 </body>
 </html>
